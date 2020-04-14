@@ -1,4 +1,7 @@
 # git_tips_tricks
+
+Repo for Github and Git tips and tricks
+
 tips and tricks for using git
 
 
