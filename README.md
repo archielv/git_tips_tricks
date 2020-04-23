@@ -23,3 +23,8 @@ id_ed25519.pub
 If you don't have an existing public and private key pair, or don't wish to use any that are available to connect to GitHub, then generate a new SSH key.
 
 If you see an existing public and private key pair listed (for example id_rsa.pub and id_rsa) that you would like to use to connect to GitHub, you can add your SSH key to the ssh-agent.
+
+## Unset email
+
+git config --global --unset-all user.name
+
