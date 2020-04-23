@@ -5,6 +5,35 @@ Repo for Github and Git tips and tricks
 tips and tricks for using git
 
 
+# Setting Up First Time
+
+1. Add user name and email
+
+git config --global user.name "Fisrt Last"
+
+git config --global user.email "your_email@example.com"
+
+
+# Generate SSH key
+
+1. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+# Add SSH key to ssh agent
+
+1. eval $(ssh-agent -s)
+2. ssh-add ~/.ssh/id_rsa
+
+# Add SSH key to github account
+
+1. cat ~/.ssh/id_rsa.pub
+
+
+
+
+
+
+
 ## Connecting to Github with SSH
 
 ### Checking for existing SSH keys
